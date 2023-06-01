@@ -7,10 +7,10 @@ Origin Repo: https://github.com/pwxcoo/chinese-xinhua
 
 ``` go
 import (
-	"github.com/rwv/chinese-xinhua-go/ci"
-	"github.com/rwv/chinese-xinhua-go/idiom"
-	"github.com/rwv/chinese-xinhua-go/word"
-	"github.com/rwv/chinese-xinhua-go/xiehouyu"
+	"github.com/golr/chinese-xinhua-go/ci"
+	"github.com/golr/chinese-xinhua-go/idiom"
+	"github.com/golr/chinese-xinhua-go/word"
+	"github.com/golr/chinese-xinhua-go/xiehouyu"
 )
 
 idioms, err := idiom.GetIdioms()
